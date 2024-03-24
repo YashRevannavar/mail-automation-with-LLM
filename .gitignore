@@ -1,0 +1,4 @@
+data/attachments/*
+.env
+notebooks
+venvGmail
