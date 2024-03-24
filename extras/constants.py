@@ -9,7 +9,7 @@ load_dotenv()
 MISTRIAL_API_KEY = os.environ['MISTRIAL_API_KEY']
 EMAIL_PASSWORD = os.environ['EMAIL_PASSWORD']
 EMAIL_SENDER = os.environ['EMAIL_SENDER']
-
+EMAIL_RECEIVER = os.environ['EMAIL_RECEIVER']
 
 ## LLM and AI
 
@@ -19,7 +19,6 @@ subject_parser = ResponseSchema(name="Subject",
 body_parser = ResponseSchema(name="Body",
                              description="The body of the email",
                              type="string")
-
 
 response_schema = [subject_parser, body_parser]
 parser = StructuredOutputParser.from_response_schemas(response_schema)

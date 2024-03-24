@@ -6,6 +6,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email import encoders
 
+
 def send_email(subject: str, body: str, directory_path: str, receiver: str) -> None:
     """
     Send an email with attachments from a specified directory using smtplib and ssl.

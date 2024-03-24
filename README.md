@@ -21,6 +21,12 @@ links to get the API key:
 1. [Mistrial](https://mistral.ai/)
 2. [Gmail setup video link](https://youtu.be/ueqZ7RL8zxM?si=KCwU7LDAC0EP5Jjc&t=118)
 
+## Usage
+To run the project, use the following command:
+```bash
+python main.py
+```
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 

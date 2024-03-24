@@ -1,4 +1,5 @@
-data/attachments/*
+data/attachments/
 .env
 notebooks
 venvGmail
+.idea
